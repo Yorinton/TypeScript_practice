@@ -1,11 +1,6 @@
-export type User = {
-    name: string
-    age: number
-}
+import { ChooseSong } from './models/ChooseSong'
 
-let user:User = {
-    name: 'Yorihiro',
-    age: 20
-}
+let chooseSong:ChooseSong = new ChooseSong()
+let songYouShouldSing:string = chooseSong.chooseSong()
 
-console.log(user)
+console.log(`次歌う歌はこれ！・・・${songYouShouldSing}`)
