@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Yorinton/TypeScript_practice#readme",
   "dependencies": {
-    "@types/node": "^12.6.9",
+    "@types/node": "^12.20.55",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
   }
